@@ -6,13 +6,22 @@
 DSP Security Knowledgebase
 =====================================
 
-Welcome to the project desription bla bla bla 
+This knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating application that are secure by design. 
 
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   cloud_security/index
+   dast_penetration_testing/index
+   docker_security/index
+   secure_coding/index
+   security_documentation/index
+   security_scanning/index
+   security_sdlc/index
+   threat_modeling/index
 
 
 
@@ -23,5 +32,3 @@ Indices and tables
 * :ref:`search`
 
 
-Threat Modeling 
-===============
