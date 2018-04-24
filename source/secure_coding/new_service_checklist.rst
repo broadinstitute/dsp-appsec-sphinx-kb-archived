@@ -78,15 +78,15 @@ Instrumentation
 
 Deployment
 ~~~~~~~~~~
-Do you have a scripted solution for CI and CD?
-Jenkins
-Circle
-See devops about Secrets. There are many ways to accidentially expose secrets during deploys with this service.
-Travis
-See devops about Secrets. There are many ways to accidentially expose secrets during deploys with this service.
-Other
-Please make sure your devops person knows and a Jenkins job is all set.
-Can you deploy independently of the rest of Firecloud? Can it deploy in FIAB if required?
+* Do you have a scripted solution for CI and CD?
+    * Jenkins
+    * Circle
+        * See devops about Secrets. There are many ways to accidentially expose secrets during deploys with this service.
+    * Travis
+        * See devops about Secrets. There are many ways to accidentially expose secrets during deploys with this service.
+    * Other
+* Please make sure your devops person knows and a Jenkins job is all set.
+* Can you deploy independently of the rest of Firecloud? Can it deploy in FIAB if required?
 
 
 
