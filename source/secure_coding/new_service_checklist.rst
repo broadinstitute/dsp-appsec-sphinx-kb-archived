@@ -43,55 +43,98 @@ Your microservice and Github
 
 
 
-
-
-
-
-
-
 Scalability
 ~~~~~~~~~~~
+
+* Multiple instances of your code can be run at one time without conflicts.
+    * ie you can just keep slapping on instances of your code for scaling (horizontal)
+* Does your code need a shared piece of infrastructure to help in scaling, like a Database or a Cache layer? Make sure your Devops team knows.
+* Make sure you're set up with an Autoscale group and/or a Load-Balancer. Talk to your Devops team.
+
+
 
 
 Logging
 ~~~~~~~
+
+* Does your code log out?
+    * Configurable to log to File and/or STDOUT.
+* Does it have multiple, configurable log-levels (debug, info, warn, error)?
+* Does your logging engine support `Sentry? <https://docs.sentry.io/quickstart/>`__
+* Are there any Alerts that need to be set up on your logs?
+* Make sure your devops person knows if you're logging to STDOUT or Logs so they can set up appropriate offsite logging?
+* Is the logging good enough? We should be able to know WHO did WHAT to WHAT OBJECT and WHEN?
 
 
 
 Instrumentation
 ~~~~~~~~~~~~~~~
 
+* Is your code instrumented with StatsD?
+* Should it be?
+* Does it go out to Graphite?
+
 
 
 Deployment
 ~~~~~~~~~~
+Do you have a scripted solution for CI and CD?
+Jenkins
+Circle
+See devops about Secrets. There are many ways to accidentially expose secrets during deploys with this service.
+Travis
+See devops about Secrets. There are many ways to accidentially expose secrets during deploys with this service.
+Other
+Please make sure your devops person knows and a Jenkins job is all set.
+Can you deploy independently of the rest of Firecloud? Can it deploy in FIAB if required?
+
 
 
 
 Encryption 
 ~~~~~~~~~~
 
+* Are you using the Apache Proxy for the front-end to your application to terminate Encryption? You should.
+* Do you need a certificate for a non-*.dsde-<ENV>.broadinstitute.org URL? Ask your Devops team.
+* Are you using persistent storage anywhere (other than a SQL database)? Ask your Devops team about encrypting your storage.
+    * Is that storage backed-up somehow?
+
 
 
 Authentication
 ~~~~~~~~~~~~~~
 
+* Is your service authenticated?
+    * You can use our Apache Proxy
+* Is it service-to-service or "users" or both?
+* How are users or applications acquiring credentials?
+    * For instance, if a shared secret, are we putting it in vault or sending it via email (put it in Vault is the right answer).
+* What scopes do you need? Will this need to change at any time?
+* What Redirect URLs will you need? Will this need to change at any time?
 
 
 Authorization
 ~~~~~~~~~~~~~
 
+* How does your service enforce Authorization?
+    * How does it revoke authorization?
+* Does it log access attempts?
 
 
 Compliance
 ~~~~~~~~~~
 
-
+* If this is an application in our Workbench, have you altered the diagram in the SSP?
+    * If you don't know what this means, find Bernick
+* If this is an application in Workbench, have you built a "concept of operations" document?
 
 Code Scans
 ~~~~~~~~~~
 
+* ToDo
 
 
 Other Security Considerations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* ToDo

@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 DSP Security Knowledgebase
-=====================================
+==========================
 
 This knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating application that are secure by design. 
 
@@ -32,7 +32,7 @@ Security Development Lifecycle
 
 
 Activities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
