@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'dsp-security-knowledgebase'
-copyright = u'2018, Albano Drazhi'
-author = u'Albano Drazhi'
+copyright = u'2018, Broad Institute'
+author = u'Broad Institute'
 
 # The short X.Y version
 version = u''

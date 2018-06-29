@@ -4,7 +4,8 @@ New Service Checklist
 
 .. contents::
 
-So you want to make a new service? Great! Please make sure you have the following things in your code:
+So you want to make a new service? Great!
+Please make sure you have the following things in your code:
 
 Your microservice and Github
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,7 +126,7 @@ Compliance
 ~~~~~~~~~~
 
 * If this is an application in our Workbench, have you altered the diagram in the SSP?
-    * If you don't know what this means, find Bernick
+    * If you don't know what this means, talk to Bernick or Albano.
 * If this is an application in Workbench, have you built a "concept of operations" document?
 
 Code Scans
