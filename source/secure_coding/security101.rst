@@ -3,9 +3,6 @@ Security 101 - API Security Guidelines
 
 .. contents::
 
-Trust is one of the most underlying principles in Security. By default we do not trust what comes
-
-
 Authentication
 ~~~~~~~~~~~~~~
 
