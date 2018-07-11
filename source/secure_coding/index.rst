@@ -7,6 +7,7 @@ Secure Coding
    new_service_checklist
    security101
    security201
+   security_resources
 
 
 ..
