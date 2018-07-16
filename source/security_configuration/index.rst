@@ -1,5 +1,5 @@
-Secure Coding
-=============
+Security Configuration
+======================
 
 .. toctree::
    :maxdepth: 2
