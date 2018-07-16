@@ -25,6 +25,7 @@ Security Development Lifecycle
 .. toctree::
    :maxdepth: 2
 
+   security_configuration/index
    secure_coding/index
    security_documentation/index
    security_sdlc/index
