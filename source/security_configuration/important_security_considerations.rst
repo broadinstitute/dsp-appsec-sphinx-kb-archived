@@ -24,11 +24,13 @@ However, from a security perspective there are two main risks related to CSP:
 To get the real value out of CSP your policy must prevent the execution of scripts.
 
 To learn more about CSP and concerns around its security configuration check the following resources:
+
 * `Adopting CSP <https://csp.withgoogle.com/docs/adopting-csp.html>`__
 * `CSP Resources <https://csp.withgoogle.com/docs/adopting-csp.html>`__
 
 
 To test your CSP configuration:
+
 * Try `CSP Evaluator <https://csp-evaluator.withgoogle.com/>`__
 
 
