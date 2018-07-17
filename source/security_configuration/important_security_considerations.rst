@@ -26,7 +26,7 @@ To get the real value out of CSP your policy must prevent the execution of scrip
 To learn more about CSP and concerns around its security configuration check the following resources:
 
 * `Adopting CSP <https://csp.withgoogle.com/docs/adopting-csp.html>`__
-* `CSP Resources <https://csp.withgoogle.com/docs/adopting-csp.html>`__
+* `CSP Resources <https://csp.withgoogle.com/docs/resources.html>`__
 
 
 To test your CSP configuration:
