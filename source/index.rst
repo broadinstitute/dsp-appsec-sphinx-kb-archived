@@ -19,6 +19,7 @@ For any questions or assistance reach out via the following:
 Feedback and contribution is welcomed!
 
 
+
 Secure Development
 ~~~~~~~~~~~~~~~~~~
 
@@ -27,3 +28,15 @@ Secure Development
 
    secure_development/secure_coding/index
 
+
+
+
+
+Cloud Native Security
+~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 2
+
+
+   security_platform_categories/cloud_security/index
