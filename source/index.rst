@@ -6,7 +6,7 @@
 DSP Security Knowledgebase
 ==========================
 
-This knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating applications that are secure by design.
+The security knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating applications that are secure by design.
 
 Getting Help 
 ~~~~~~~~~~~~~
@@ -14,7 +14,7 @@ Getting Help
 For any questions or assistance reach out via the following: 
 
 * Submit questions to `DevSecOps Slack Channel <https://broadinstitute.slack.com/messages/CABML2U9G>`__
-* Reach out directly to someone at the DSP Appsec Team. See this handy resoruce on `Google Drive <https://docs.google.com/spreadsheets/d/1X-wjVb5t70laQNobZ_YKUloT9HRgdoNQUWSWjwJsAR0/edit#gid=0>`__
+
 
 Feedback and contribution is welcomed!
 
