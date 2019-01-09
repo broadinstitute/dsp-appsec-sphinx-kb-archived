@@ -26,7 +26,4 @@ Secure Development
    :maxdepth: 2
 
    secure_development/secure_coding/index
-   secure_development/security_documentation/index
-   secure_development/security_sdlc/index
-   secure_development/threat_modeling/index
 
