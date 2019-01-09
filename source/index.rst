@@ -19,35 +19,14 @@ For any questions or assistance reach out via the following:
 Feedback and contribution is welcomed!
 
 
-Security Development Lifecycle
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Secure Development
+~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
 
-   security_configuration/index
-   secure_coding/index
-   security_documentation/index
-   security_sdlc/index
-   threat_modeling/index
-
-
-Activities
-~~~~~~~~~~
-
-.. toctree::
-   :maxdepth: 2
-
-   security_scanning/index
-   cloud_security/index
-   dast_penetration_testing/index
-   docker_security/index
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
+   secure_development/secure_coding/index
+   secure_development/security_documentation/index
+   secure_development/security_sdlc/index
+   secure_development/threat_modeling/index
 

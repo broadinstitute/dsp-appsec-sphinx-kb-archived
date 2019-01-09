@@ -154,7 +154,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'dsp-security-knowledgebase', u'dsp-security-knowledgebase Documentation',
-     author, 'dsp-security-knowledgebase', 'One line description of project.',
+     author, 'dsp-security-knowledgebase', 'SecWiki',
      'Miscellaneous'),
 ]
 
