@@ -23,7 +23,7 @@ Secure Development
 ~~~~~~~~~~~~~~~~~~
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    secure_development/secure_coding/index
 

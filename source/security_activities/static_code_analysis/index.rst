@@ -1,5 +1,5 @@
-Security Documentation
-======================
+Static Code Analysis
+====================================
 
 .. toctree::
    :maxdepth: 2
