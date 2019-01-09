@@ -6,7 +6,7 @@
 DSP Security Knowledgebase
 ==========================
 
-This knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating application that are secure by design. 
+This knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating applications that are secure by design.
 
 Getting Help 
 ~~~~~~~~~~~~~
