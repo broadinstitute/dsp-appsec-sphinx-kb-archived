@@ -6,7 +6,7 @@
 DSP Security Knowledgebase
 ==========================
 
-The security knowledgebase aims to provide resources to help developers in pre-development and post-development phases in creating applications that are secure by design.
+The security knowledgebase aims to provide resources to help developers in creating secure-by-default applications.
 
 For any questions or assistance reach out via the `DevSecOps Slack Channel <https://broadinstitute.slack.com/messages/CABML2U9G>`__
 
