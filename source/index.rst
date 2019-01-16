@@ -21,6 +21,7 @@ Secure Development
    :maxdepth: 2
 
    secure_development/secure_coding/index
+   secure_development/security_sdlc/index
 
 
 
@@ -34,3 +35,4 @@ Cloud Native Security
 
 
    security_platform_categories/cloud_security/index
+

@@ -4,7 +4,7 @@ Security Into SDLC
 .. toctree::
    :maxdepth: 2
 
-   overview
+   security_review
 
 ..
    Indices and tables
