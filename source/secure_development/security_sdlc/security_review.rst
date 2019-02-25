@@ -18,10 +18,8 @@ all other environments accepting the same kind of input.
 * Validate all client provided data before processing, including all parameters, URLs and HTTP header content
 * Verify that header values in both requests and responses contain only ASCII characters
 * Validate data from redirects (An attacker may submit malicious content directly to the target of the redirect, thus circumventing application logic and any validation performed before the redirect)
-* Contextually sanitize all output of un-trusted data to queries or OS commands
 * Sanitize all user inputs or any input parameters exposed to user to prevent injection attacks
 * Do not hand code or build JSON by string concatenation ever, no matter how small the object is, instead use your language defined libraries or framework
-* Use random CSRF tokens and expose business logic APIs as HTTP POST requests. Do not expose CSRF tokens over HTTP for example in an initial request upgrade phase.
 * Authorization must always be checked on the server. Hiding user interface components is fine for user experience, but not an adequate security measure
 * Deny by default. Positive validation is safer and less error prone than negative validation
 * Code should authorize against specific resources such as files, profiles, or REST endpoints
