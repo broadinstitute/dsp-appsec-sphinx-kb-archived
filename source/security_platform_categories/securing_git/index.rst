@@ -16,9 +16,6 @@ Prevent committing secrets into git repositories - Client-Side
 To prevent any secrets that we might accidentally commit to the GitHub repository, we may want to use the git-secrets developed by
 the awslabs for our repository to keep safe during development.
 
-installation
-============
-
 The following snippet downloads, installs, and configures git-secrets
 for repositories initiated or cloned *in the future*.
 
@@ -37,11 +34,9 @@ Now enable git-secrets for each *current* repository with
 
    (cd path/to/my/repo && git secrets --install)
 
-Test Keys
----------
 
-GCP
-~~~
+GCP Example
+-----------
 
 ::
 
@@ -58,8 +53,8 @@ GCP
      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my_gcp_email@my_gcp_account_id.iam.gserviceaccount.com"
    }
 
-AWS
-~~~
+AWS Example
+-----------
 
 \``\` x =“AKIAABCDEFGHIJKLMNOP”,"H/A604MMvmQjL
 
