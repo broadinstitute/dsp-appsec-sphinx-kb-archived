@@ -15,23 +15,31 @@ So you want to make a new service? Great! A few things to get started:
 
 Please make sure you have the following things in your code:
 
-Your microservice and Github
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prevent committing secrets into git repositories - Client-Side
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Do you have a /status endpoint?
+* Do you have a /status endpoint? to prevent any secrets that we might accidentally commit to the GitHub repository, we may want to use the git-secrets developed by
+the awslabs for our repository to keep safe during development.
 
 
-Scalability
-~~~~~~~~~~~
+
+Detecting commited secrets into git repositories - Server-Side
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Multiple instances of your code can be run at one time without conflicts.
 
 
 
-Logging
-~~~~~~~
+Repository Integrity With Signed Commits
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Does your code log out?
 
 
+
+
+References
+~~~~~~~~~~
+* https://cloudplatform.googleblog.com/2017/07/help-keep-your-Google-Cloud-service-account-keys-safe.html
+* https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work
 
