@@ -7,6 +7,7 @@ Securing Git/Github
 Below are some items to consider in order to protect git repositories.
 
 If you commit sensitive data into a Git repository, you can remove it from the history. Instructions here: https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
+https://github.com/GitGuardian/APISecurityBestPractices/blob/master/Leak%20Mitigation%20Checklist.md
 
 
 Prevent committing secrets into git repositories - Client-Side
@@ -69,14 +70,15 @@ AWS
 Detecting commited secrets into git repositories - Server-Side
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Multiple instances of your code can be run at one time without conflicts.
+For server-side detection of secrets we have implemented controls and as a developer the only thing you need to do is watch
+out for any alerts communicated by the DSP AppSec team as we closely monitor these alerts in case there's any accidental commit of secrets.
 
 
 
 Repository Integrity With Signed Commits
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Does your code log out?
+Why is this important?
 
 
 
