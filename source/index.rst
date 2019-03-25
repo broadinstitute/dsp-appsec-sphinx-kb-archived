@@ -45,3 +45,13 @@ Securing Git
 
 
    security_platform_categories/securing_git/index
+
+
+Security Resources
+~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 2
+
+
+  security_resources/DSP_Appsec_Onboarding_Doc/index
