@@ -36,3 +36,12 @@ Cloud Native Security
 
    security_platform_categories/cloud_security/index
 
+
+Securing Git
+~~~~~~~~~~~~
+
+.. toctree::
+   :maxdepth: 2
+
+
+   security_platform_categories/securing_git/index
