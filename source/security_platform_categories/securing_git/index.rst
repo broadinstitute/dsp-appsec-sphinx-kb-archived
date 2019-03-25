@@ -37,7 +37,7 @@ Now enable git-secrets for each *current* repository with
 
 
 GCP Example
------------
+^^^^^^^^^^^
 
 ::
 
@@ -55,7 +55,7 @@ GCP Example
    }
 
 AWS Example
------------
+^^^^^^^^^^^
 
 ::
 
