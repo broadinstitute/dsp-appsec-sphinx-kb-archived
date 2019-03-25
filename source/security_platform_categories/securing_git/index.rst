@@ -36,8 +36,8 @@ Now enable git-secrets for each *current* repository with
    (cd path/to/my/repo && git secrets --install)
 
 
-GCP Example
-^^^^^^^^^^^
+**GCP Example**
+
 
 ::
 
@@ -54,8 +54,9 @@ GCP Example
      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my_gcp_email@my_gcp_account_id.iam.gserviceaccount.com"
    }
 
-AWS Example
-^^^^^^^^^^^
+
+**AWS Example**
+
 
 ::
 
@@ -76,7 +77,20 @@ out for any alerts communicated by the DSP AppSec team as we closely monitor the
 Repository Integrity With Signed Commits
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Why is this important?
+This is important because of bla bla bla.
+
+Steps:
+1. Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
+2. Add the GPG key to your github account: https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account
+3. Start signing commits: https://help.github.com/en/articles/signing-commits
+
+
+**(Recommended)** Set up Automatic Signing
+To remove the hassle of always remembering to sign your commits, you can configure Git to sign all your commits automatically as you create them.
+
+::
+
+   git config –-global commit.gpgsign true
 
 
 
