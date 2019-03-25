@@ -6,8 +6,9 @@ Securing Git/Github
 
 Below are some items to consider in order to protect git repositories.
 
-If you commit sensitive data into a Git repository, you can remove it from the history. Instructions here: https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
-https://github.com/GitGuardian/APISecurityBestPractices/blob/master/Leak%20Mitigation%20Checklist.md
+If you commit sensitive data into a Git repository, you can remove it from the history. Follow these `Instructions. <https://help.github.com/en/articles/removing-sensitive-data-from-a-repository>`_
+
+
 
 
 Prevent committing secrets into git repositories - Client-Side
