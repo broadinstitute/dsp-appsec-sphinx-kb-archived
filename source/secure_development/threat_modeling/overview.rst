@@ -14,6 +14,7 @@ Why do threat modeling?
 Is threat modeling alone enough?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Is threat modeling a design activity?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -28,3 +29,6 @@ Who needs to be involved?
 
 How much time is required?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How to get started?
+~~~~~~~~~~~~~~~~~~~
