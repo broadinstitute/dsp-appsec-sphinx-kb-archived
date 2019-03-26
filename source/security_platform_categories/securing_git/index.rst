@@ -79,10 +79,9 @@ Repository Integrity With Signed Commits
 
 This is important because of bla bla bla.
 
-Steps:
-1. Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
-2. Add the GPG key to your github account: https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account
-3. Start signing commits: https://help.github.com/en/articles/signing-commits
+* 1. Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
+* 2. Add the GPG key to your github account: https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account
+* 3. Start signing commits: https://help.github.com/en/articles/signing-commits
 
 
 **(Recommended)** Set up Automatic Signing
@@ -99,4 +98,6 @@ References
 ~~~~~~~~~~
 * https://cloudplatform.googleblog.com/2017/07/help-keep-your-Google-Cloud-service-account-keys-safe.html
 * https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work
+* https://mikegerwitz.com/2012/05/a-git-horror-story-repository-integrity-with-signed-commits
+
 
