@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'dsp-security-knowledgebase'
-copyright = u'2018, Broad Institute'
+copyright = u'2019, Broad Institute'
 author = u'Broad Institute'
 
 # The short X.Y version
@@ -132,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'dsp-security-knowledgebase.tex', u'dsp-security-knowledgebase Documentation',
+    (master_doc, 'dsp-security-knowledgebase.tex', u'Home',
      u'Albano Drazhi', 'manual'),
 ]
 
@@ -142,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dsp-security-knowledgebase', u'dsp-security-knowledgebase Documentation',
+    (master_doc, 'dsp-security-knowledgebase', u'Home',
      [author], 1)
 ]
 
@@ -153,7 +153,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'dsp-security-knowledgebase', u'dsp-security-knowledgebase Documentation',
+    (master_doc, 'dsp-security-knowledgebase', u'Home',
      author, 'dsp-security-knowledgebase', 'SecWiki',
      'Miscellaneous'),
 ]
