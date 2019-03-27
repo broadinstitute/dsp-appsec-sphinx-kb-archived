@@ -82,7 +82,7 @@ However there is also an external attack vector for those projects that accept P
 
 Scenario 1 - legit commit
 
-.. image:: /source/attachments/legit-commit.png
+.. image:: /attachments/legit-commit.png
 
 
 
