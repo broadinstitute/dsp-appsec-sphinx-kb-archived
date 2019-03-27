@@ -80,13 +80,27 @@ Repository Integrity With Signed Commits
 This is important because it helps ensure repository integrity. When someone has write access to a repository is is very easy to spoof commits pretending to be someone else.
 However there is also an external attack vector for those projects that accept PRs from outside collaborators. Example shown below.
 
-Scenario 1 - legit commit
+.. note:: Scenario 1 - legit commit
 
 .. image:: /attachments/legit-commit.png
 
 
+.. note:: Scenario 1 - legit commit
+
+**Scenario 2 - spoofed commit from user who has access to repo**
+
+.. image:: /attachments/fake-commit.png
 
 
+.. note:: Scenario 1 - legit commit
+
+**Scenario 1 - spoofed commit via PR as an outside collaborator**
+
+.. image:: /attachments/outside-commit.png
+
+
+**Steps to follow to setup commit signing are located below.** Alternatively you can just run the following `script <https://github.com/broadinstitute/dsp-security-knowledgebase/blob/master/source/scripts/gitsign.sh>`__.
+Please ensure you have `installed gpg <https://gpgtools.org/>`__. prior to running the script.
 
 * Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
 
@@ -94,9 +108,9 @@ Scenario 1 - legit commit
 
 * Start signing commits: https://help.github.com/en/articles/signing-commits
 
-
-**(Recommended)** Set up Automatic Signing
-To remove the hassle of always remembering to sign your commits, you can configure Git to sign all your commits automatically as you create them.
+.. note::
+   **(Recommended)** Set up Automatic Signing
+   To remove the hassle of always remembering to sign your commits, you can configure Git to sign all your commits automatically as you create them.
 
 ::
 
