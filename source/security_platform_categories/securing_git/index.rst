@@ -95,7 +95,7 @@ However there is also an external attack vector for those projects that accept P
 .. note::
    **Scenario 3 - spoofed commit via PR as an outside collaborator**
 
-.. image:: /attachments/outside-commit.png
+.. image:: /attachments/outside-pr.png
 
 
 **Steps to follow to setup commit signing are located below.** Alternatively you can just run the following `script <https://github.com/broadinstitute/dsp-security-knowledgebase/blob/master/source/scripts/gitsign.sh>`__.
