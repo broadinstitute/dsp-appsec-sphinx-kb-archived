@@ -82,17 +82,17 @@ However there is also an external attack vector for those projects that accept P
 
 Scenario 1 - legit commit
 
-.. image:: /source/attachments/gnu.png
+.. image:: /source/attachments/legit-commit.png
 
 
 
 
 
-* 1. Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
+* Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
 
-* 2. Add the GPG key to your github account: https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account
+* Add the GPG key to your github account: https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account
 
-* 3. Start signing commits: https://help.github.com/en/articles/signing-commits
+* Start signing commits: https://help.github.com/en/articles/signing-commits
 
 
 **(Recommended)** Set up Automatic Signing
