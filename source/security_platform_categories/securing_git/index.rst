@@ -77,10 +77,21 @@ out for any alerts communicated by the DSP AppSec team as we closely monitor the
 Repository Integrity With Signed Commits
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is important because of bla bla bla.
+This is important because it helps ensure repository integrity. When someone has write access to a repository is is very easy to spoof commits pretending to be someone else.
+However there is also an external attack vector for those projects that accept PRs from outside collaborators. Example shown below.
+
+Scenario 1 - legit commit
+
+.. image:: source/attachments/gnu.png
+
+
+
+
 
 * 1. Generate a GPG key: https://help.github.com/en/articles/generating-a-new-gpg-key
+
 * 2. Add the GPG key to your github account: https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account
+
 * 3. Start signing commits: https://help.github.com/en/articles/signing-commits
 
 
