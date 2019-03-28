@@ -6,8 +6,12 @@ Securing Git/Github
 
 Below are some items to consider in order to protect git repositories.
 
-If you commit sensitive data into a Git repository, you can remove it from the history. Follow these `Instructions. <https://help.github.com/en/articles/removing-sensitive-data-from-a-repository>`_
+.. note::
+   What to do in case of an accidental commit
 
+* First, rotate your credentials. Once you have pushed a commit to Github, you should consider any data it contains to be compromised
+* Remove sensitive info from git history as well: https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
+* Review access logs to see if there was some suspicious activity
 
 
 
@@ -61,14 +65,6 @@ Now enable git-secrets for each *current* repository with
 ::
 
    x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxx"
-
-
-.. note::
-   What to do in case of an accidental commit
-
-* First, rotate your credentials. Once you have pushed a commit to Github, you should consider any data it contains to be compromised
-* Remove sensitive info from git history as well: https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
-* Review access logs to see if there was some suspicous activity
 
 
 
