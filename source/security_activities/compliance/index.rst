@@ -1,5 +1,5 @@
-Security Scanning
-=================
+Static Code Analysis
+====================================
 
 .. toctree::
    :maxdepth: 2

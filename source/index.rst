@@ -5,13 +5,25 @@
 
 DSP Security Knowledgebase
 ==========================
+.. note::
 
-The security knowledgebase aims to provide resources to help developers in creating secure-by-default applications.
+   For any questions or assistance reach out via the `DevSecOps Slack Channel <https://broadinstitute.slack.com/messages/CABML2U9G>`__
 
-For any questions or assistance reach out via the `DevSecOps Slack Channel <https://broadinstitute.slack.com/messages/CABML2U9G>`__
+.. note::
+
+   Building a new service? Check out `New Service Security Requirements <https://sdarq.dsp-techops.broadinstitute.org>`__
 
 Feedback and contribution is welcomed!
 
+
+
+Security Activities
+~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 2
+
+   security_activities/appsec/index
+   security_activities/compliance/index
 
 
 Secure Development
