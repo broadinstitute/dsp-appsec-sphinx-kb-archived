@@ -5,6 +5,7 @@
 
 DSP Security Knowledgebase
 ==========================
+
 .. note::
 
    For any questions or assistance reach out via the `DevSecOps Slack Channel <https://broadinstitute.slack.com/messages/CABML2U9G>`__
@@ -13,7 +14,9 @@ DSP Security Knowledgebase
 
    Building a new service? Check out `New Service Security Requirements <https://sdarq.dsp-techops.broadinstitute.org>`__
 
-Feedback and contribution is welcomed!
+.. note::
+
+   Did you recently join DSP? Check out `Security Onboarding Resources <https://security-kb.dsp-techops.broadinstitute.org/security_resources/DSP_Appsec_Onboarding_Doc/index.html>`__
 
 
 

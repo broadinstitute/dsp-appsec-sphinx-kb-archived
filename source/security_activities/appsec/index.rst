@@ -1,5 +1,5 @@
-Static Code Analysis
-====================================
+Security Activities
+====================
 
 .. toctree::
    :maxdepth: 2

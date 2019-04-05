@@ -33,3 +33,11 @@ Resources for New Security Engineers
 * Readings
    * Understand `OWASP Top 10 <https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`__
    * Understand `OAuth2 <http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/>`__
+
+
+New Hire Security Checklist
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Make sure you have installed git-secrets. `Instructions here <https://security-kb.dsp-techops.broadinstitute.org/security_platform_categories/securing_git/index.html#prevent-committing-secrets-into-git-repositories-client-side>`__
+* Make sure you have completed OWASP Top 10 module in Codebashing
+*
