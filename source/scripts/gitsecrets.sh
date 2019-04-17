@@ -1,16 +1,5 @@
 #!/usr/bin/env bash
 
-install_homebrew_if_not_present() {
-    echo "Checking for homebrew installation"
-    which -s brew
-    if [[ $? != 0 ]] ; then
-        echo "Homebrew not found. Installing..."
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    else
-        echo "Homebrew already installed!"
-    fi
-}
-
 setup_git_secrets() {
     # Install git-secrets
     brew install git-secrets
@@ -37,5 +26,4 @@ setup_git_secrets() {
 }
 
 
-install_homebrew_if_not_present
 setup_git_secrets
