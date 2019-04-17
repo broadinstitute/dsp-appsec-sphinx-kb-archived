@@ -15,8 +15,24 @@ Below are some items to consider in order to protect git repositories.
 
 
 
-Prevent committing secrets into git repositories - Client-Side
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How do I verify git-secrets works on my machine?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note::
+   Step 1: Verify package is installed
+   `git-secrets`
+
+
+.. note::
+   Step 1: Verify rules are enabled
+
+
+
+
+
+Manually installing git-secrets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To prevent any secrets that we might accidentally commit to the GitHub repository, we may want to use the git-secrets developed by
 the awslabs for our repository to keep safe during development.
