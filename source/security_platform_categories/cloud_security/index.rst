@@ -173,20 +173,22 @@ Secure GCE
 
 3. Only use Google’s IAM for SSH access.
 
-   e. Give users “compute” access to specific Subnets as opposed to the
-         whole project via Google IAM:
+   e. Give users “compute” access to specific Subnets as opposed to the whole project via Google IAM:
          https://cloud.google.com/compute/docs/instances/managing-instance-access
 
    f. https://cloud.google.com/compute/docs/access/granting-access-to-resources
 
-   g. | Example of granting access for a user to SSH to machines in a
-           specific subnet: gcloud compute subnetwork add-iam-policy
-           <subnetwork name> \\
-         | --member='user:user@gmail.com' \\
-         | --role='roles/compute.instanceAdmin.v1
+   g. Example of granting access for a user to SSH to machines in a
+           specific subnet:
 
-4. Your VM should have some things on (required only if your VM has
-      access to Production data):
+       ::
+
+          gcloud compute subnetwork add-iam-policy
+                     <subnetwork name> \\
+                   | --member='user:user@gmail.com' \\
+                   | --role='roles/compute.instanceAdmin.v1
+
+4. Your VM should have some things on (required only if your VM has access to Production data):
 
    h. Make sure auto-update of security patches is on:
 
@@ -196,8 +198,7 @@ Secure GCE
       ii. Ubuntu -
              https://help.ubuntu.com/lts/serverguide/automatic-updates.html.en
 
-5. (advanced) Logs should go somewhere (required only if your VM has
-      access to Production data)
+5. (advanced) Logs should go somewhere (required only if your VM has access to Production data)
 
    i. VM logs should use StackDriver and go out to there.
 
@@ -205,16 +206,13 @@ Secure GCE
 
       ii.  By default, it picks up system logs
 
-      iii.   For applications: application can write to a file that gets
-              picked up by Stackdriver (like /var/log/applicationname)
-              via the fluentd agent
+      iii. For applications: application can write to a file that gets picked up by Stackdriver (like /var/log/applicationname) via the fluentd agent
 
            1. https://cloud.google.com/logging/docs/agent/configuration
 
       vi.  See BITS about having traffic of logs go to SIEM.
 
-           2. By default all “Google” logs already go to SIEM - -this is
-                 just for the application/OS.
+           2. By default all “Google” logs already go to SIEM - -this is just for the application/OS.
 
 GKE (TODO)
 ~~~~~~~~~~
