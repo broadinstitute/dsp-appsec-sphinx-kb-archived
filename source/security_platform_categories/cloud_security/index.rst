@@ -70,27 +70,38 @@ b. Example: **gcloud compute firewall-rules delete default-allow-ssh default-all
 
 c. You might want to delete the “default” network (optional).
 
-   i. **gcloud compute networks delete default**
+   i.
+      ::
+
+           gcloud compute networks delete default
+
 
 d. Create a managed network and subnet -- allow only Broad Networks to access.
 
-   i.  **gcloud compute networks create managed**
+   i.
+      ::
 
-        1. “managed” here is the name of the network you’re making. Use anything you want.
+           gcloud compute networks create managed
 
-   ii. **gcloud compute networks subnets create managed-subnet --network=managed --enable-flow-logs --range=10.100.1.0/24**
 
-        1. Note, your range might vary depending on what you want.
+      1. “managed” here is the name of the network you’re making. Use anything you want.
 
-        2. “Managed-subnet” can be any word you want. We named it this because it’s a “subnet” of the network called “managed”. We encourage something similar.
+   ii.
 
-        3. You might want to talk to bits if you want to create an absolutely unique --range.
+       ::
 
-   iii.  **gcloud --project <project> --account <user> compute firewall-rules create managed-allow-<name>**
-         **--allow=tcp:<port>  --target-tags broad-allow --network=managed**
-         **--source-ranges=69.173.112.0/21,69.173.127.232/29,69.173.127.128/26,69.173.127.0/25,69.173.127.**
-         **240/28,69.173.127.224/30,69.173.127.230/31,69.173.120.0/22,69.173.127.228/32,69.173.126.0/24,69.173.96.0/20,**
-         **69.173.64.0/19,69.173.127.192/27,69.173.124.0/23 --enable-logging**
+           gcloud compute networks subnets create managed-subnet --network=managed --enable-flow-logs --range=10.100.1.0/24
+
+       1. Note, your range might vary depending on what you want.
+
+       2. “Managed-subnet” can be any word you want. We named it this because it’s a “subnet” of the network called “managed”. We encourage something similar.
+
+       3. You might want to talk to bits if you want to create an absolutely unique --range.
+
+   iii.
+         ::
+
+             gcloud --project <project> --account <user> compute firewall-rules create managed-allow-<name> --allow=tcp:<port>  --target-tags broad-allow --network=managed --source-ranges=69.173.112.0/21,69.173.127.232/29,69.173.127.128/26,69.173.127.0/25,69.173.127.240/28,69.173.127.224/30,69.173.127.230/31,69.173.120.0/22,69.173.127.228/32,69.173.126.0/24,69.173.96.0/20,69.173.64.0/19,69.173.127.192/27,69.173.124.0/23 --enable-logging
 
         1. There is a chance this command is slightly different depending on the exact version of gcloud you have.
 
