@@ -1,6 +1,6 @@
 # DSP Security Knowledgebase 
 
-Security Knowledgebase | Sphinx + reStructuredtxt
+Security Knowledgebase | Generated using Sphinx + reStructuredtxt
 
 # Getting Started 
 
