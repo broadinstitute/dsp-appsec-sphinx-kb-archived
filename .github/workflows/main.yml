@@ -12,7 +12,7 @@ action "filter-to-pr-open-synced" {
 
 # Action that workflow picks up
 action "trufflehog-secret-scanner" {
-  uses = "broadinstitute/dsp-security-knowledgebase/github-actions/truffleHog@master"
+  uses = "broad-security-actions-github/truffleHog@master"
   needs = "filter-to-pr-open-synced"
   # secrets = ["GITHUB_TOKEN"]
   env = {
