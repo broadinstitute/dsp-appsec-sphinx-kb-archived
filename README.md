@@ -1,7 +1,7 @@
 # DSP Security Knowledgebase 
 
-Security KB | Sphinx + reStructuredtxt
+Security Knowledgebase | Sphinx + reStructuredtxt
 
 # Getting Started 
 
-Knowledgebase for security-related documentation
+Knowledgebase for security-related documentation 
