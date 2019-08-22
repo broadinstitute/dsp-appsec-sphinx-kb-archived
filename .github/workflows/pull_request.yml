@@ -16,6 +16,6 @@ jobs:
       with:
         args: action 'opened|synchronize'
     - name: trufflehog-secret-scanner
-      uses: broadinstitute/broad-security-actions-github/@master
+      uses: broadinstitute/broad-security-actions-github/truffleHog@master
       env:
         TH_ACTION_WORKING_DIR: .
