@@ -1,0 +1,15 @@
+on: pull_request
+name: TruffleHog Secret Scanner
+jobs:
+  filter-to-pr-open-synced:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: filter-to-pr-open-synced
+      uses: actions/bin/filter@master
+      with:
+        args: action 'opened|synchronize'
+    - name: trufflehog-secret-scanner
+      uses: broad-security-actions-github/truffleHog@master
+      env:
+        TH_ACTION_WORKING_DIR: .
