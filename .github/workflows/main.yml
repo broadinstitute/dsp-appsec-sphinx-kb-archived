@@ -1,17 +1,21 @@
-name: CI
+# Github actions workflow
+workflow "TruffleHog Secret Scanner" {
+  on = "pull_request"
+  resolves = ["trufflehog-secret-scanner"]
+}
 
-on: [push]
+# This action includes common filters to stop workflows unless certain conditions are met
+action "filter-to-pr-open-synced" {
+  uses = "actions/bin/filter@master"
+  args = "action 'opened|synchronize'"
+}
 
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+# Action that workflow picks up
+action "trufflehog-secret-scanner" {
+  uses = "broadinstitute/dsp-security-knowledgebase/github-actions@master"
+  needs = "filter-to-pr-open-synced"
+  # secrets = ["GITHUB_TOKEN"]
+  env = {
+    TH_ACTION_WORKING_DIR = "."
+  }
+}
