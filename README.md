@@ -10,5 +10,5 @@ Knowledgebase for security-related documentation
 
 Testing if it's picked up by trufflehog
 
-x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxxxX"
+x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxxxxxX"
 
