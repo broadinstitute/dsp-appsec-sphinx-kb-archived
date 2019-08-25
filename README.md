@@ -6,9 +6,3 @@ Security Knowledgebase | Generated using Sphinx + reStructuredtxt
 
 Knowledgebase for security-related documentation
 
-
-
-Testing if it's picked up by trufflehog
-
-x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxxxxxxX"
-
