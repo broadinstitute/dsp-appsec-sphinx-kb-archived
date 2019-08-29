@@ -6,13 +6,6 @@ Security Knowledgebase | Generated using Sphinx + reStructuredtxt
 
 Knowledgebase for security-related documentation.
 
-test-key-do-not-panic!!
-x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxxxx"
+test
+x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-
-aws_access_key_id = 'AKIAIXXXXXXXXXXXX675'
-aws_secret_access_key = 'wYrs4wexxxxxxxxxxxxjbluxxxxxxxxxxxxDqj9Z'
-
-
-aws_access_key_id = 'AKIAIXXXXXXXXXXXX675'
-aws_secret_access_key = 'wYrs4wexxxxxxxxxxxxjbluxxxxxxxxxxxxDqj9Z'
