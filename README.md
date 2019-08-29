@@ -6,6 +6,3 @@ Security Knowledgebase | Generated using Sphinx + reStructuredtxt
 
 Knowledgebase for security-related documentation.
 
-test
-x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
