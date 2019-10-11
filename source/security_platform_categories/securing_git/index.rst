@@ -23,12 +23,13 @@ Examples of sensitive information:
 - Confidential logs, etc. 
 
 
-
-* **Step 1:**  First things first, rotate your credentials. Once you have pushed a commit to Github, you should consider any data it contains to be compromised
+* **Step 1:**  First things first, rotate your credentials. Once you have pushed a commit to Github, you should consider any data it contains to be compromised. 
 
 * **Step 2:**  Remove sensitive info from git history as well: https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
 
-* **Step 3:**  Review access logs to see if there was some suspicious activity. If you do find suspicious activity please reach out to `appsec@broadinstitute.org`
+* **Step 3:**  Review access logs to see if there was some suspicious activity. If you do find suspicious activity please reach out to `appsec@broadinstitute.org`. 
+Some secrets can lead to other secrets. E.g. Slack tokens can give access to messages and shared files generally containing other secrets. GitHub tokens can give access to private repositories also containing secrets.
+Depending on your findings, if part of your infrastructure or data has been further exposed, you may need to take additional mitigation actions.
 
 
 
