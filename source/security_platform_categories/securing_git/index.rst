@@ -16,11 +16,12 @@ it's important that the necessary that the necessary steps are taken as part of 
 
 Examples of sensitive information:
 
-- API tokens
-- Private Keys 
-- GCP, AWS, Azure Keys 
-- Passwords, DB Credentials
-- Confidential logs, etc. 
+* API tokens
+* Private Keys 
+* GCP, AWS, Azure Keys 
+* Passwords, DB Credentials
+* Confidential logs, etc. 
+
 
 
 * **Step 1:**  First things first, rotate your credentials. Once you have pushed a commit to Github, you should consider any data it contains to be compromised. 
