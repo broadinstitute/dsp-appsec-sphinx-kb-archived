@@ -6,13 +6,39 @@ Securing Git/Github
 
 Below are some items to consider in order to protect git repositories.
 
-.. note::
-   What to do in case of an accidental commit
 
-* First, rotate your credentials. Once you have pushed a commit to Github, you should consider any data it contains to be compromised
+What to do when a secret is accidentally committed in source code?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Secrets, such as private keys or API tokens, are regularly leaked by developers in source
+code repositories. More often than not this happens by accident. Accidents happen, however
+it's important that the necessary that the necessary steps are taken as part of mitigation
+
+Examples of sensitive information:
+
+- API tokens
+- Private Keys 
+- GCP, AWS, Azure Keys 
+- Passwords, DB Credentials
+- Confidential logs, etc. 
+
+
+
+.. warning::
+   1. First things first, rotate your credentials
+
+* Once you have pushed a commit to Github, you should consider any data it contains to be compromised
+
+.. warning::
+   1. First things first, rotate your credentials
+
 * Remove sensitive info from git history as well: https://help.github.com/en/articles/removing-sensitive-data-from-a-repository
-* Review access logs to see if there was some suspicious activity
 
+
+.. warning::
+   1. First things first, rotate your credentials
+
+* Review access logs to see if there was some suspicious activity
 
 
 
