@@ -12,7 +12,7 @@ What to do when a secret is accidentally committed in source code?
 
 Secrets, such as private keys or API tokens, are regularly leaked by developers in source
 code repositories. More often than not this happens by accident. Accidents happen, however
-it's important that the necessary that the necessary steps are taken as part of mitigation
+it's important that the necessary steps are taken as part of mitigation
 
 Examples of sensitive information:
 
