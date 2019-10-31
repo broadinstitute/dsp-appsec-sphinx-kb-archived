@@ -13,4 +13,3 @@ ${SSHCMD} ${SSH_USER}@${SSH_HOST} sudo cp -rfp /home/jenkins/html /app/
 ${SSHCMD} ${SSH_USER}@${SSH_HOST} sudo docker-compose -f /app/docker-compose.yml -p sphinx stop
 sleep 5
 ${SSHCMD} ${SSH_USER}@${SSH_HOST} sudo docker-compose -f /app/docker-compose.yml -p sphinx up -d
-#restart apache docker-compose
