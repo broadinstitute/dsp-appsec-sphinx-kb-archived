@@ -103,9 +103,8 @@ Now enable git-secrets for each *current* repository with
 
 ::
 
-   x ="AKIAABCDEFGHIJKLLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxx"
-
-
+.
+x ="AKIAABCDEFGHIJKLLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxx"
 
 Detecting commited secrets into git repositories - Server-Side
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
