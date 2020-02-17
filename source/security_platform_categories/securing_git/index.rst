@@ -103,7 +103,7 @@ Now enable git-secrets for each *current* repository with
 
 ::
 
-   x ="AKIAABCDEFGHIJKLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxx"
+   x ="AKIAABCDEFGHIJKLLMNOP","H/A604MMvmQjLuZw/xxxxxxxxxxxxxxxxxxxxxxx"
 
 
 
